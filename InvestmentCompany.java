@@ -26,7 +26,7 @@ public class InvestmentCompany {
 		Member m1 = new Member("Iosif", 28);
 		Member m2 = new Member("Irina", 27);
 
-		Commercial c = new Commercial("Comercial", "Vanzari", 100856, manager1, 2);
+		Commercial c = new Commercial("Comercial", "Vanzari", 100856, manager1, 2, "2025-03-10");
 		c.addMember(m1);
 		c.addMember(m2);
 

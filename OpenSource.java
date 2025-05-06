@@ -10,4 +10,9 @@ public class OpenSource extends Project {
 	public double getRisk() {
 		return (double) count / getFonduri();
 	}
+
+	@Override
+	public String toString() {
+		return super.toString() + "\n" + "Mailing List: " + mailingList;
+	}
 }

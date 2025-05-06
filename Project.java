@@ -36,5 +36,11 @@ public abstract class Project implements Risky {
 	}
 
 	@Override
+	public String toString() {
+		return "Proiect: " + titlu + "\n" + "Obiectiv: " + obiectiv + "\n" + "Fonduri: " + fonduri + "\n" + "Manager: "
+				+ manager.nume + ", Varsta: " + manager.varsta + "\n" + "Numar Membri: " + count;
+	}
+
+	@Override
 	public abstract double getRisk();
 }
